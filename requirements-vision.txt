@@ -1,0 +1,6 @@
+-r requirements.txt
+torch>=2.4
+scikit-image>=0.22
+imageio>=2.30
+# Optional fast CUDA backend: pip install gsplat
+# Optional unknown-pose reconstruction: pip install pycolmap
