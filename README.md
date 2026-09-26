@@ -1,6 +1,10 @@
 # Evidence Real2Sim
 
-**从不同输入出发，查看实际生成的外观、几何和机器人接触结果。**
+**目标：从图片序列重建完整机器人操作场景，包括桌面、背景、所有任务相关物体、机器人与原始布局。**
+
+完整场景的高保真重建与可交互装配**尚未完成**。下方图集是已经运行的单物体和子模块实验，
+不能作为完整场景成果。独立资产只是整场景的组成部分。
+请先看[完整工作空间方案与实现状态](docs/WHOLE_WORKSPACE.md)。
 
 Data-aware reconstruction, calibration and robot contact evaluation.
 
@@ -12,6 +16,10 @@ Data-aware reconstruction, calibration and robot contact evaluation.
 
 [输入条件详解](docs/INPUT_CASES.md) · [实验记录与失败项](reports/VALIDATION.md) ·
 [安装与完整命令 / English](docs/TECHNICAL_GUIDE.md) · [图片来源](docs/assets/README.md)
+
+新的整场景输入入口 `prepare_workspace.py` 保留完整原始画幅、实例清单和共同坐标系信息；
+未知相机位姿不猜测，动态操作序列不静默当静止扫描处理。此入口只做准备和检查，
+不代表已经实现完整重建。8 项新增输入范围检查已单独运行。
 
 ## 先看生成结果：机器人与物体相互影响
 
