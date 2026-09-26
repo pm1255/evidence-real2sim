@@ -1,0 +1,25 @@
+{
+  "data_origin":"REPLACE_WITH_REAL_CAPTURE_SOURCE",
+  "episodes":[{
+    "id":"episode_000",
+    "split":"fit",
+    "independent_geometry_and_sync_verified":false,
+    "object":{
+      "tracks":"YOUR_OBJECT_TRACKS/marker_tracks.json",
+      "T_world_camera":null,
+      "T_marker_body":null,
+      "clock_camera_to_robot":{"a":null,"b":null,"origin_s":null,"uncertainty_s":null},
+      "max_tilt_rad":null,
+      "world_pose_accuracy_m":null
+    },
+    "pusher":{
+      "tracks":"YOUR_PUSHER_TRACKS/marker_tracks.json",
+      "T_world_camera":null,
+      "T_marker_body":null,
+      "clock_camera_to_robot":{"a":null,"b":null,"origin_s":null,"uncertainty_s":null},
+      "max_tilt_rad":null,
+      "world_pose_accuracy_m":null
+    },
+    "metadata":{"initial_object_z_m":null,"initial_twist_xy_yaw":null}
+  }]
+}

@@ -1,0 +1,10 @@
+{
+  "scope":{"task_family":"REPLACE","hardware_ids":["REPLACE"],"asset_versions":["REPLACE"],"speed_range_m_s":null},
+  "policies":{"policy_A":"REPLACE_WITH_HASH","policy_B":"REPLACE_WITH_HASH"},
+  "scoring_rule":"REPLACE_WITH_FROZEN_SUCCESS_RULE",
+  "max_success_gap_pp":null,
+  "max_sim_success_real_failure_rate":null,
+  "min_real_conditions_per_task":null,
+  "minimum_within_task_spearman":null,
+  "artifacts":{"robot_model":"REPLACE","contact_model":"REPLACE","policy_A":"REPLACE","policy_B":"REPLACE"}
+}

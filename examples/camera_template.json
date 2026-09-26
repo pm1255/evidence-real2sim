@@ -1,0 +1,15 @@
+{
+  "note":"Template only. Fill actual square size, inner-corner counts and paths. At least six varied fit views and independent heldout views are required.",
+  "inner_corners":[6,5],
+  "square_m":null,
+  "frames":[
+    {"file":"YOUR_FIT_01.png","split":"fit"},
+    {"file":"YOUR_FIT_02.png","split":"fit"},
+    {"file":"YOUR_FIT_03.png","split":"fit"},
+    {"file":"YOUR_FIT_04.png","split":"fit"},
+    {"file":"YOUR_FIT_05.png","split":"fit"},
+    {"file":"YOUR_FIT_06.png","split":"fit"},
+    {"file":"YOUR_TEST_01.png","split":"test"},
+    {"file":"YOUR_TEST_02.png","split":"test"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "note":"Template only. Fill measured marker dimensions and actual capture timestamps; null values intentionally prevent use before configuration.",
+  "camera":"YOUR_CAMERA_CALIBRATION/camera.json",
+  "dictionary":"DICT_4X4_50",
+  "marker_id":null,
+  "marker_size_m":null,
+  "max_reprojection_px":null,
+  "min_solution_gap_px":0.1,
+  "frames":[{"file":"YOUR_FRAME_000.png","t_s":null},{"file":"YOUR_FRAME_001.png","t_s":null}]
+}

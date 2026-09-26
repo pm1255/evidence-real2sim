@@ -1,0 +1,30 @@
+{
+  "data_origin": "REPLACE_WITH_SOURCE_AND_DATASET_ROLE",
+  "mapping": {
+    "t": "state_time",
+    "q": "actual_joint_positions",
+    "tau": "measured_joint_torques",
+    "action_t": "command_time",
+    "action": "commanded_joint_positions",
+    "action_valid": "command_was_issued",
+    "object_t": "object_time",
+    "object_pose": "object_xy_yaw",
+    "pusher_t": "pusher_time",
+    "pusher_pose": "actual_pusher_xy_yaw"
+  },
+  "scale": {"t":1, "action_t":1, "object_t":1, "pusher_t":1},
+  "semantics": {
+    "state":"measured_joint_position",
+    "action":"REPLACE_AFTER_CHECKING_DATASET_DEFINITION",
+    "action_source":"REPLACE_AFTER_CHECKING_original_commands_or_training_labels",
+    "tau_source":"REPLACE_WITH_SENSOR_OR_ESTIMATOR_DEFINITION",
+    "tau_semantics_verified":false,
+    "metric_geometry_and_sync_verified":false,
+    "units":{"time":"s","q":"rad","tau":"Nm","object_pose":"m_m_rad"},
+    "robot_model_id":"REPLACE_WITH_EXACT_ROBOT_AND_TOOL_VERSION"
+  },
+  "episodes":[
+    {"id":"episode_000","split":"fit","source":"YOUR_EPISODE.npz"},
+    {"id":"episode_001","split":"test","source":"YOUR_HELDOUT_EPISODE.npz"}
+  ]
+}
