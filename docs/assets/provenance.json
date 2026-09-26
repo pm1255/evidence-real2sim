@@ -1,0 +1,74 @@
+{
+  "gallery": "Executed examples / 实际运行结果",
+  "all_visual_fixtures_synthetic": true,
+  "real_data_in_gallery": "YCB numeric PSNR only; no third-party photographs or meshes redistributed",
+  "simulation_replaces_real_evaluation": false,
+  "media": [
+    {
+      "file": "input_views.png",
+      "description": "输入例子｜同一场景的六个已标定 RGB 视角"
+    },
+    {
+      "file": "gaussian_views.png",
+      "description": "G｜四个留出视角：训练前后实际对比"
+    },
+    {
+      "file": "appearance_metrics.png",
+      "description": "外观检验｜逐个留出视角报告，而非只看训练图"
+    },
+    {
+      "file": "dense_surfaces.png",
+      "description": "稠密重建｜从实际导出的网格查看正面与背面"
+    },
+    {
+      "file": "controller_response.png",
+      "description": "A｜有指令和实际关节状态，没有图像或力矩"
+    },
+    {
+      "file": "motion_contact.png",
+      "description": "C / D｜没有力矩时，轨迹能提供哪些接触信息"
+    },
+    {
+      "file": "torque_diagnostic.png",
+      "description": "E｜有状态和实际力矩，没有图像"
+    },
+    {
+      "file": "feedback_traces.png",
+      "description": "F｜相同发送指令，接触改变机器人运动"
+    },
+    {
+      "file": "contact_feedback.gif",
+      "description": "Saved simulation body poses, sampled every 3 control frames; top-down schematic, not native renderer footage."
+    }
+  ],
+  "source_artifacts_sha256": {
+    "synthetic_vision/images/001.png": "e2b76134ccd68a7316676af6f8aad3817106af79a0dbf7bfb07de364f182cd6a",
+    "synthetic_vision/images/005.png": "039287f0ea7d4af4bc5e07707956575fec66432444a522f17f03d99d32a7135c",
+    "synthetic_vision/images/009.png": "571aff37484a3315f79bc75198287b565a28bb0aaf20c57581257b0a4bdd1bbc",
+    "synthetic_vision/images/013.png": "63b461a0c8fb5f713067a0b07010f93a2028b65a0a4c7c0750146b432d09ba6e",
+    "synthetic_vision/images/017.png": "1aec06f2434d494fd50f109b384d388eaad1090477af74a479d85033f7cbf020",
+    "synthetic_vision/images/021.png": "6ab5a25cf9ffde24fd731ad146ef1002f7eadcb5039a0a6b6b44336ec34b2934",
+    "synthetic_gaussians/before_00.png": "393561f13ed824ead026cf47599b7a9c67ba788f3f6176ea0281a66b890ae352",
+    "synthetic_gaussians/heldout_00.png": "3b97b409e80238e851114c32047c37e1c48908c7441a6eb09d08f97303240e8d",
+    "synthetic_gaussians/before_01.png": "b44541e2baf499fae8eed38aac559132b6222984cdaa89a66b95ea551d7add4c",
+    "synthetic_gaussians/heldout_01.png": "a28fd217d681cb5317ec1f8d1db0677a041be37c2a74ce36f4b8c95692eee20b",
+    "synthetic_gaussians/before_02.png": "c96111188afa057d107758351c015628e5a4247fed3de2964bdfbac09ef4091b",
+    "synthetic_gaussians/heldout_02.png": "83a76399c1958739927cba4c36d57a5b0a1c9b3a28d18aae95e12c9616e0fd41",
+    "synthetic_gaussians/before_03.png": "cd37feaca5a43db9240b0d93f08e4d06b2649fa0d29d563b5fe067dbe5986de0",
+    "synthetic_gaussians/heldout_03.png": "464762b864873eec129f805c0e9e4c2ad657f5e16ddc870ebf5b8e0044d5e046",
+    "synthetic_gaussians/training_report.json": "4bf8d72b6c34b1e60dfe8dcc0dfd9552db1ee204f143eeb03d161a8c896a34e9",
+    "ycb_gaussians/training_report.json": "750eb1a0664fa4009391beaf556ae486bddec3a4a09c8145d2579f371dd7b044",
+    "synthetic_rgb_dense/surface.ply": "c7817dfc422192753ee731c4fa297552da9f6ab14bba1eb3b50e3bd9113cdb5d",
+    "synthetic_dense/surface.ply": "4038f1645b6b1d8a7bfc8636c6326b2ee0041ca5e4d66b2ade8345b1aa3c7075",
+    "portable_examples/A_actions_without_images/controller/controller_3_rollout.npz": "7fbf82137deb583e91e73232196ed0125ac9ccc49fc39c08bf50a447dca67145",
+    "portable_examples/inputs/controller/controller_3.npz": "faa12902896a6e06eb9ecb8c126e9ec686397bd7008e44216272396dbab4fd88",
+    "portable_examples/C_object_motion_without_robot/contact_test/slide_3_prediction.npz": "4efa8813cce2ce6a87fb240122433b2602a069f6c1debe57ec5f1153c1623533",
+    "portable_examples/D_motion_without_torque/contact_test/push_2_prediction.npz": "2c19dbf6f4071c8f514ce090fdd7ff70e5188776722ea43f507de331ff8d91c2",
+    "portable_examples/E_torque_without_images/torque_0_window7.npz": "238f6e2f05a45f03c6b89a3a3a0c39d121c8bc624b6307f5d1cf5490a3397b64",
+    "portable_examples/E_torque_without_images/torque_0_window11.npz": "dfada659099f3162a2c03574bcd759ee23bf21485a23ff88260573fd623c0b3d",
+    "feedback_stable_run/episode.npz": "c85a133917c5f58bf1ae9be4051a81cb862e85ec159b0e2c65f6114af21ea3bb",
+    "feedback_stable_no_contact/episode.npz": "d50cffef0632438a35e673ffafb9d455db9a04f67e183350ea30bb787d53b80c",
+    "feedback_stable_run/trace.json": "7c1a6f00138db82a37f4496361a60f3d3a58597c989f11c4e6b359ebdb548eed",
+    "feedback_stable_no_contact/trace.json": "d5217e0ef2e028490c694df462355aea44921275928c358f4a0ce7f821b6a004"
+  }
+}
