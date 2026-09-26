@@ -1,0 +1,311 @@
+{
+  "backend": "reference",
+  "model": "anisotropic_3D_Gaussians_SH0_fixed_budget",
+  "data_origin": "REAL_YCB_RGB_WITH_PUBLISHED_METRIC_CALIBRATION",
+  "scene_sha256": "09110ca0ee4a001e0ac37eea173eb3d258f94c642cf0a117fcaf745608b75faa",
+  "training_views": 80,
+  "heldout_views": 16,
+  "gaussian_count": 320,
+  "steps": 320,
+  "seconds": 7.370988375041634,
+  "image_max_side": 64,
+  "before_heldout": [
+    {
+      "view_id": "ycb_000",
+      "psnr_db": 13.81939288895676,
+      "foreground_psnr_db": 8.07564613890916,
+      "silhouette_iou": 0.5038684606552124
+    },
+    {
+      "view_id": "ycb_006",
+      "psnr_db": 17.240810461632652,
+      "foreground_psnr_db": 10.90406813614707,
+      "silhouette_iou": 0.7503302693367004
+    },
+    {
+      "view_id": "ycb_012",
+      "psnr_db": 16.170104024661814,
+      "foreground_psnr_db": 10.035061253877963,
+      "silhouette_iou": 0.660520613193512
+    },
+    {
+      "view_id": "ycb_018",
+      "psnr_db": 15.392888505583029,
+      "foreground_psnr_db": 9.46626438337921,
+      "silhouette_iou": 0.5997931957244873
+    },
+    {
+      "view_id": "ycb_024",
+      "psnr_db": 17.453023736547703,
+      "foreground_psnr_db": 10.74139396319919,
+      "silhouette_iou": 0.7661764621734619
+    },
+    {
+      "view_id": "ycb_030",
+      "psnr_db": 14.058326278504556,
+      "foreground_psnr_db": 8.427480872162427,
+      "silhouette_iou": 0.5888031125068665
+    },
+    {
+      "view_id": "ycb_036",
+      "psnr_db": 16.894455997358307,
+      "foreground_psnr_db": 10.632121931540894,
+      "silhouette_iou": 0.7571428418159485
+    },
+    {
+      "view_id": "ycb_042",
+      "psnr_db": 16.99516835222303,
+      "foreground_psnr_db": 10.801635118881487,
+      "silhouette_iou": 0.744303822517395
+    },
+    {
+      "view_id": "ycb_048",
+      "psnr_db": 14.001493739475839,
+      "foreground_psnr_db": 8.59968027220572,
+      "silhouette_iou": 0.55064457654953
+    },
+    {
+      "view_id": "ycb_054",
+      "psnr_db": 16.405780451693857,
+      "foreground_psnr_db": 10.336409089126274,
+      "silhouette_iou": 0.7255638837814331
+    },
+    {
+      "view_id": "ycb_060",
+      "psnr_db": 16.29004653133076,
+      "foreground_psnr_db": 10.098625425987082,
+      "silhouette_iou": 0.7088167071342468
+    },
+    {
+      "view_id": "ycb_066",
+      "psnr_db": 13.58220077822034,
+      "foreground_psnr_db": 9.311155904813468,
+      "silhouette_iou": 0.6997792720794678
+    },
+    {
+      "view_id": "ycb_072",
+      "psnr_db": 15.631203591234602,
+      "foreground_psnr_db": 10.809438342163569,
+      "silhouette_iou": 0.7554285526275635
+    },
+    {
+      "view_id": "ycb_078",
+      "psnr_db": 14.224751692797797,
+      "foreground_psnr_db": 10.20474935883217,
+      "silhouette_iou": 0.7298682332038879
+    },
+    {
+      "view_id": "ycb_084",
+      "psnr_db": 15.012036813945269,
+      "foreground_psnr_db": 10.77578809994093,
+      "silhouette_iou": 0.775741696357727
+    },
+    {
+      "view_id": "ycb_090",
+      "psnr_db": 16.127393990357973,
+      "foreground_psnr_db": 10.994024975195044,
+      "silhouette_iou": 0.7869012951850891
+    }
+  ],
+  "after_heldout": [
+    {
+      "view_id": "ycb_000",
+      "psnr_db": 21.71167632230807,
+      "foreground_psnr_db": 16.41206535434539,
+      "silhouette_iou": 0.9111111164093018
+    },
+    {
+      "view_id": "ycb_006",
+      "psnr_db": 22.77804382940168,
+      "foreground_psnr_db": 16.549889156957253,
+      "silhouette_iou": 0.900671124458313
+    },
+    {
+      "view_id": "ycb_012",
+      "psnr_db": 21.37505028112129,
+      "foreground_psnr_db": 15.931997452483204,
+      "silhouette_iou": 0.9005347490310669
+    },
+    {
+      "view_id": "ycb_018",
+      "psnr_db": 22.997955043472764,
+      "foreground_psnr_db": 17.546106229309906,
+      "silhouette_iou": 0.9136690497398376
+    },
+    {
+      "view_id": "ycb_024",
+      "psnr_db": 24.155171638074616,
+      "foreground_psnr_db": 17.393579134620044,
+      "silhouette_iou": 0.8993808031082153
+    },
+    {
+      "view_id": "ycb_030",
+      "psnr_db": 22.725753530500114,
+      "foreground_psnr_db": 17.65221910428376,
+      "silhouette_iou": 0.939453125
+    },
+    {
+      "view_id": "ycb_036",
+      "psnr_db": 24.217402127977167,
+      "foreground_psnr_db": 18.34476586062646,
+      "silhouette_iou": 0.9322034120559692
+    },
+    {
+      "view_id": "ycb_042",
+      "psnr_db": 22.18672739314302,
+      "foreground_psnr_db": 17.745150182182684,
+      "silhouette_iou": 0.9259740114212036
+    },
+    {
+      "view_id": "ycb_048",
+      "psnr_db": 23.899739806657173,
+      "foreground_psnr_db": 18.960944466668998,
+      "silhouette_iou": 0.9309366345405579
+    },
+    {
+      "view_id": "ycb_054",
+      "psnr_db": 23.540649318676063,
+      "foreground_psnr_db": 20.210077647445644,
+      "silhouette_iou": 0.909326434135437
+    },
+    {
+      "view_id": "ycb_060",
+      "psnr_db": 24.13783522627419,
+      "foreground_psnr_db": 19.962894992488476,
+      "silhouette_iou": 0.9501779079437256
+    },
+    {
+      "view_id": "ycb_066",
+      "psnr_db": 23.124633716365285,
+      "foreground_psnr_db": 19.924114864694396,
+      "silhouette_iou": 0.9488158822059631
+    },
+    {
+      "view_id": "ycb_072",
+      "psnr_db": 22.81888085552196,
+      "foreground_psnr_db": 19.399247473664484,
+      "silhouette_iou": 0.923462986946106
+    },
+    {
+      "view_id": "ycb_078",
+      "psnr_db": 23.049775844787533,
+      "foreground_psnr_db": 19.820603912437956,
+      "silhouette_iou": 0.9353846311569214
+    },
+    {
+      "view_id": "ycb_084",
+      "psnr_db": 22.072485355804645,
+      "foreground_psnr_db": 20.29389720577942,
+      "silhouette_iou": 0.9091743230819702
+    },
+    {
+      "view_id": "ycb_090",
+      "psnr_db": 24.70472792312421,
+      "foreground_psnr_db": 21.33901558751678,
+      "silhouette_iou": 0.9532520174980164
+    }
+  ],
+  "fit_views_diagnostic": [
+    {
+      "view_id": "ycb_001",
+      "psnr_db": 21.31277990501716,
+      "foreground_psnr_db": 16.10793647124117,
+      "silhouette_iou": 0.9021317958831787
+    },
+    {
+      "view_id": "ycb_002",
+      "psnr_db": 21.151031769999335,
+      "foreground_psnr_db": 15.811510118724792,
+      "silhouette_iou": 0.8921282887458801
+    },
+    {
+      "view_id": "ycb_003",
+      "psnr_db": 21.09146487032973,
+      "foreground_psnr_db": 15.560982567397073,
+      "silhouette_iou": 0.8924731016159058
+    },
+    {
+      "view_id": "ycb_004",
+      "psnr_db": 22.04343623808246,
+      "foreground_psnr_db": 16.13022371610167,
+      "silhouette_iou": 0.8985176682472229
+    }
+  ],
+  "fit_history": [
+    {
+      "step": 0,
+      "fit_loss": 0.29259538650512695
+    },
+    {
+      "step": 20,
+      "fit_loss": 0.09337061179110227
+    },
+    {
+      "step": 40,
+      "fit_loss": 0.09035025766391448
+    },
+    {
+      "step": 60,
+      "fit_loss": 0.08931476965594139
+    },
+    {
+      "step": 80,
+      "fit_loss": 0.11547016996389847
+    },
+    {
+      "step": 100,
+      "fit_loss": 0.07590094075570457
+    },
+    {
+      "step": 120,
+      "fit_loss": 0.08356733925617123
+    },
+    {
+      "step": 140,
+      "fit_loss": 0.06721661310765085
+    },
+    {
+      "step": 160,
+      "fit_loss": 0.1037893977123941
+    },
+    {
+      "step": 180,
+      "fit_loss": 0.0767035557629576
+    },
+    {
+      "step": 200,
+      "fit_loss": 0.07800867886314518
+    },
+    {
+      "step": 220,
+      "fit_loss": 0.05782927493467128
+    },
+    {
+      "step": 240,
+      "fit_loss": 0.09774255699572854
+    },
+    {
+      "step": 260,
+      "fit_loss": 0.07234373826097214
+    },
+    {
+      "step": 280,
+      "fit_loss": 0.07326680396916763
+    },
+    {
+      "step": 300,
+      "fit_loss": 0.05447113926692111
+    },
+    {
+      "step": 319,
+      "fit_loss": 0.08212439830234768
+    }
+  ],
+  "metric_scale_source": "published YCB metric calibration",
+  "collision_geometry_validated": false,
+  "limitations": [
+    "Fixed budget, SH0 colours, no adaptive densification; small CPU reference is not production photorealism.",
+    "Seed geometry must originate from fit images; metadata declaration alone cannot prove provenance.",
+    "Image appearance metrics do not certify contact surfaces or unobserved regions."
+  ]
+}

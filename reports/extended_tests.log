@@ -1,0 +1,26 @@
+test_01_gaussian_gradients_are_finite (__main__.ExtendedChecks.test_01_gaussian_gradients_are_finite) ... /Users/panmiao/Documents/Codex/2026-09-25/ni-h/outputs/evidence-real2sim/tests/test_extended.py:32: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:821.)
+  self.assertTrue(torch.isfinite(image).all());self.assertGreater(float(alpha.max()),0)
+ok
+test_02_quaternion_rotation_is_orthogonal (__main__.ExtendedChecks.test_02_quaternion_rotation_is_orthogonal) ... ok
+test_03_large_pixel_batch_no_opencv_limit (__main__.ExtendedChecks.test_03_large_pixel_batch_no_opencv_limit) ... ok
+test_04_projection_backprojection_roundtrip (__main__.ExtendedChecks.test_04_projection_backprojection_roundtrip) ... ok
+test_05_tsdf_against_analytic_geometry (__main__.ExtendedChecks.test_05_tsdf_against_analytic_geometry) ... Depth 1 / 10
+Depth 2 / 10
+Depth 3 / 10
+Depth 4 / 10
+Depth 5 / 10
+Depth 6 / 10
+Depth 7 / 10
+Depth 8 / 10
+Depth 9 / 10
+Depth 10 / 10
+ok
+test_06_two_way_feedback_changes_robot_motion (__main__.ExtendedChecks.test_06_two_way_feedback_changes_robot_motion) ... ok
+test_07_synthetic_trials_cannot_pass_real_gate (__main__.ExtendedChecks.test_07_synthetic_trials_cannot_pass_real_gate) ... ok
+test_08_duplicate_fit_and_test_images_rejected (__main__.ExtendedChecks.test_08_duplicate_fit_and_test_images_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.381s
+
+OK

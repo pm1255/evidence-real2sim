@@ -1,0 +1,135 @@
+{
+  "backend": "reference",
+  "model": "anisotropic_3D_Gaussians_SH0_fixed_budget",
+  "data_origin": "SYNTHETIC_RAY_TRACED_RGBD_SOFTWARE_VALIDATION",
+  "scene_sha256": "916e826afa8cddfd0d49293557c11166ed9c466ac80235d6717d2363eec4693f",
+  "training_views": 20,
+  "heldout_views": 4,
+  "gaussian_count": 256,
+  "steps": 160,
+  "seconds": 3.7011541250394657,
+  "image_max_side": 64,
+  "before_heldout": [
+    {
+      "view_id": "synthetic_000",
+      "psnr_db": 18.5783192643692,
+      "foreground_psnr_db": 10.581360151905939,
+      "silhouette_iou": 0.639398992061615
+    },
+    {
+      "view_id": "synthetic_006",
+      "psnr_db": 16.098916309422954,
+      "foreground_psnr_db": 9.504912485818737,
+      "silhouette_iou": 0.5255220532417297
+    },
+    {
+      "view_id": "synthetic_012",
+      "psnr_db": 17.54113500229814,
+      "foreground_psnr_db": 9.693422077960573,
+      "silhouette_iou": 0.5545454621315002
+    },
+    {
+      "view_id": "synthetic_018",
+      "psnr_db": 16.48479211189566,
+      "foreground_psnr_db": 9.823353314271047,
+      "silhouette_iou": 0.5064177513122559
+    }
+  ],
+  "after_heldout": [
+    {
+      "view_id": "synthetic_000",
+      "psnr_db": 22.818679605557488,
+      "foreground_psnr_db": 15.331217703274312,
+      "silhouette_iou": 0.9003496766090393
+    },
+    {
+      "view_id": "synthetic_006",
+      "psnr_db": 20.180392445401058,
+      "foreground_psnr_db": 14.871209882203244,
+      "silhouette_iou": 0.8798186182975769
+    },
+    {
+      "view_id": "synthetic_012",
+      "psnr_db": 22.220707545294115,
+      "foreground_psnr_db": 14.659464853528153,
+      "silhouette_iou": 0.9536741375923157
+    },
+    {
+      "view_id": "synthetic_018",
+      "psnr_db": 21.078389361890082,
+      "foreground_psnr_db": 15.545079154399975,
+      "silhouette_iou": 0.8918296694755554
+    }
+  ],
+  "fit_views_diagnostic": [
+    {
+      "view_id": "synthetic_001",
+      "psnr_db": 23.13888255250156,
+      "foreground_psnr_db": 15.37512482921092,
+      "silhouette_iou": 0.9432387351989746
+    },
+    {
+      "view_id": "synthetic_002",
+      "psnr_db": 23.002093062652584,
+      "foreground_psnr_db": 15.526509726785083,
+      "silhouette_iou": 0.9473684430122375
+    },
+    {
+      "view_id": "synthetic_003",
+      "psnr_db": 22.53499439515901,
+      "foreground_psnr_db": 15.39795747049309,
+      "silhouette_iou": 0.9355280995368958
+    },
+    {
+      "view_id": "synthetic_004",
+      "psnr_db": 22.059792625035072,
+      "foreground_psnr_db": 15.31883134907433,
+      "silhouette_iou": 0.9338422417640686
+    }
+  ],
+  "fit_history": [
+    {
+      "step": 0,
+      "fit_loss": 0.1249506026506424
+    },
+    {
+      "step": 20,
+      "fit_loss": 0.09437223732808288
+    },
+    {
+      "step": 40,
+      "fit_loss": 0.08539284827905362
+    },
+    {
+      "step": 60,
+      "fit_loss": 0.07875369237572222
+    },
+    {
+      "step": 80,
+      "fit_loss": 0.07497711012207507
+    },
+    {
+      "step": 100,
+      "fit_loss": 0.07188603770807
+    },
+    {
+      "step": 120,
+      "fit_loss": 0.06894006705915909
+    },
+    {
+      "step": 140,
+      "fit_loss": 0.0678477006816901
+    },
+    {
+      "step": 159,
+      "fit_loss": 0.06799037133085453
+    }
+  ],
+  "metric_scale_source": "synthetic known coordinates",
+  "collision_geometry_validated": false,
+  "limitations": [
+    "Fixed budget, SH0 colours, no adaptive densification; small CPU reference is not production photorealism.",
+    "Seed geometry must originate from fit images; metadata declaration alone cannot prove provenance.",
+    "Image appearance metrics do not certify contact surfaces or unobserved regions."
+  ]
+}

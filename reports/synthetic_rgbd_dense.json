@@ -1,0 +1,130 @@
+{
+  "mode": "registered_sensor_depth_TSDF",
+  "data_origin": "SYNTHETIC_RAY_TRACED_RGBD_SOFTWARE_VALIDATION",
+  "scene_sha256": "916e826afa8cddfd0d49293557c11166ed9c466ac80235d6717d2363eec4693f",
+  "views": [
+    {
+      "view_id": "synthetic_001",
+      "sensor_valid_pixels": 2341,
+      "cross_view_valid_pixels": 2339
+    },
+    {
+      "view_id": "synthetic_002",
+      "sensor_valid_pixels": 2648,
+      "cross_view_valid_pixels": 2646
+    },
+    {
+      "view_id": "synthetic_003",
+      "sensor_valid_pixels": 2905,
+      "cross_view_valid_pixels": 2904
+    },
+    {
+      "view_id": "synthetic_004",
+      "sensor_valid_pixels": 3108,
+      "cross_view_valid_pixels": 3106
+    },
+    {
+      "view_id": "synthetic_005",
+      "sensor_valid_pixels": 3235,
+      "cross_view_valid_pixels": 3234
+    },
+    {
+      "view_id": "synthetic_007",
+      "sensor_valid_pixels": 3434,
+      "cross_view_valid_pixels": 3405
+    },
+    {
+      "view_id": "synthetic_008",
+      "sensor_valid_pixels": 3643,
+      "cross_view_valid_pixels": 3634
+    },
+    {
+      "view_id": "synthetic_009",
+      "sensor_valid_pixels": 3592,
+      "cross_view_valid_pixels": 3592
+    },
+    {
+      "view_id": "synthetic_010",
+      "sensor_valid_pixels": 3309,
+      "cross_view_valid_pixels": 3309
+    },
+    {
+      "view_id": "synthetic_011",
+      "sensor_valid_pixels": 2813,
+      "cross_view_valid_pixels": 2813
+    },
+    {
+      "view_id": "synthetic_013",
+      "sensor_valid_pixels": 2580,
+      "cross_view_valid_pixels": 2579
+    },
+    {
+      "view_id": "synthetic_014",
+      "sensor_valid_pixels": 2798,
+      "cross_view_valid_pixels": 2797
+    },
+    {
+      "view_id": "synthetic_015",
+      "sensor_valid_pixels": 2980,
+      "cross_view_valid_pixels": 2979
+    },
+    {
+      "view_id": "synthetic_016",
+      "sensor_valid_pixels": 3105,
+      "cross_view_valid_pixels": 3103
+    },
+    {
+      "view_id": "synthetic_017",
+      "sensor_valid_pixels": 3144,
+      "cross_view_valid_pixels": 3129
+    },
+    {
+      "view_id": "synthetic_019",
+      "sensor_valid_pixels": 3463,
+      "cross_view_valid_pixels": 3459
+    },
+    {
+      "view_id": "synthetic_020",
+      "sensor_valid_pixels": 3551,
+      "cross_view_valid_pixels": 3548
+    },
+    {
+      "view_id": "synthetic_021",
+      "sensor_valid_pixels": 3363,
+      "cross_view_valid_pixels": 3359
+    },
+    {
+      "view_id": "synthetic_022",
+      "sensor_valid_pixels": 2972,
+      "cross_view_valid_pixels": 2972
+    },
+    {
+      "view_id": "synthetic_023",
+      "sensor_valid_pixels": 2475,
+      "cross_view_valid_pixels": 2473
+    }
+  ],
+  "fit_views_only": true,
+  "observed_points": 61380,
+  "fusion": {
+    "status": "partial_observed_surface",
+    "known_voxels": 90429,
+    "total_voxels": 154880,
+    "voxel_spacing_m": [
+      0.0027848101265822785,
+      0.0027906976744186047,
+      0.0027906976744186047
+    ],
+    "vertices": 9333,
+    "faces": 18183,
+    "watertight": false,
+    "holes_filled": false
+  },
+  "metric_scale_source": "synthetic known coordinates",
+  "contact_surface_accuracy_certified": false,
+  "limitations": [
+    "Dense surface is partial where texture/depth observations are insufficient.",
+    "Cross-view agreement is not independent metrology.",
+    "No automatic watertight filling or collision certification."
+  ]
+}

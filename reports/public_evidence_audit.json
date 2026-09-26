@@ -1,0 +1,25 @@
+{
+  "checked": "2026-09-26",
+  "sources": [
+    {
+      "project": "SIMPLER",
+      "url": "https://github.com/simpler-env/SimplerEnv",
+      "available": "author per-task per-policy aggregate performance tables",
+      "our_new_pipeline_validated": false
+    },
+    {
+      "project": "Real-to-Sim Policy Eval",
+      "url": "https://github.com/kywind/real2sim-eval",
+      "available": "assets, policy checkpoints, sim eval code, sample motion replay",
+      "missing_for_our_claim": "matching independent real trial set for our newly reconstructed assets and robot"
+    },
+    {
+      "project": "RoboSnap",
+      "url": "https://github.com/robosnap/robosnap",
+      "observed_release_state": "README evaluation code and DROID-Sim still unchecked"
+    }
+  ],
+  "upstream_source_sha256": "ee8596be6997d41295bf5b25f90c9b5b3ba47ef2bd92296b8c45e7ffc5606dc6",
+  "author_table_task_count": 9,
+  "paired_real_trials_of_this_method_available": false
+}

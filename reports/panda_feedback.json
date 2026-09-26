@@ -1,0 +1,42 @@
+{
+  "mode": "closed_loop_policy",
+  "data_origin": "SIMULATION_NOT_REAL",
+  "model_and_assets_sha256": "6797643c51972c6aaad73e8f89167a8f1f217a237fa9ed72c48a070e218ea410",
+  "config_sha256": "3defa442cbd398bd5317b2a1717d4946cf77895188959bbe659f381db7892cd9",
+  "policy_hash": "49872c5e1682e032c5ee178adfb00523831b061c94dc6226498057d360ea41b6",
+  "state_overwrite_after_reset": false,
+  "robot_mocap_bodies": 0,
+  "robot_joint_count": 7,
+  "contact_samples": 3775,
+  "peak_robot_object_contact_force_N": 5.025991310867303,
+  "final_object_position_m": [
+    0.46692003337935145,
+    0.16917054316233496,
+    0.00030049364262623314
+  ],
+  "goal_position_error_m": 0.06380095703587381,
+  "success": false,
+  "max_abs_generalized_contact_force": [
+    2.106983095604277,
+    1.3646198733992008,
+    2.330855048406091,
+    2.1898759443740627,
+    0.5718529500906315,
+    1.3662351500369705,
+    0.022242282279718712
+  ],
+  "generalized_force_units": [
+    "Nm",
+    "Nm",
+    "Nm",
+    "Nm",
+    "Nm",
+    "Nm",
+    "Nm"
+  ],
+  "gravity_compensation_is_assumed": true,
+  "real_contact_feedback_validated": false,
+  "real_sim_policy_equivalence_validated": false,
+  "video_render_error": null,
+  "video_rendered": false
+}

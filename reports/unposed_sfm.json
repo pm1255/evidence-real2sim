@@ -1,0 +1,14 @@
+{
+  "models": [
+    {
+      "registered_images": 2,
+      "points": 30,
+      "fit_reprojection_px": 0.2816335384972158
+    }
+  ],
+  "scale": "arbitrary",
+  "dense_mesh_generated": false,
+  "gaussian_training_executed": false,
+  "physics_eligible": false,
+  "next": "metric scale, dense/GS backend, collision geometry and independent surface checks"
+}

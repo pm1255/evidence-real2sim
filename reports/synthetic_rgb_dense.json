@@ -1,0 +1,206 @@
+{
+  "mode": "RGB_plane_sweep_multiview",
+  "data_origin": "SYNTHETIC_RAY_TRACED_RGBD_SOFTWARE_VALIDATION",
+  "scene_sha256": "916e826afa8cddfd0d49293557c11166ed9c466ac80235d6717d2363eec4693f",
+  "views": [
+    {
+      "view_id": "synthetic_001",
+      "photometric_valid_pixels": 1140,
+      "object_pixels": 1308,
+      "depth_range_m": [
+        0.3087851663091693,
+        0.580083992928348
+      ],
+      "median_valid_cost": 0.0745774433016777,
+      "cross_view_valid_pixels": 1109
+    },
+    {
+      "view_id": "synthetic_002",
+      "photometric_valid_pixels": 1358,
+      "object_pixels": 1491,
+      "depth_range_m": [
+        0.3149852273830432,
+        0.5918214288910858
+      ],
+      "median_valid_cost": 0.09303662180900574,
+      "cross_view_valid_pixels": 1325
+    },
+    {
+      "view_id": "synthetic_003",
+      "photometric_valid_pixels": 1485,
+      "object_pixels": 1637,
+      "depth_range_m": [
+        0.323892896218485,
+        0.5917876681506712
+      ],
+      "median_valid_cost": 0.09036757051944733,
+      "cross_view_valid_pixels": 1445
+    },
+    {
+      "view_id": "synthetic_004",
+      "photometric_valid_pixels": 1592,
+      "object_pixels": 1753,
+      "depth_range_m": [
+        0.3339419594537056,
+        0.579183607510644
+      ],
+      "median_valid_cost": 0.09173093736171722,
+      "cross_view_valid_pixels": 1539
+    },
+    {
+      "view_id": "synthetic_007",
+      "photometric_valid_pixels": 1701,
+      "object_pixels": 1943,
+      "depth_range_m": [
+        0.3328865278362346,
+        0.5391271410391301
+      ],
+      "median_valid_cost": 0.05093158781528473,
+      "cross_view_valid_pixels": 1632
+    },
+    {
+      "view_id": "synthetic_008",
+      "photometric_valid_pixels": 1784,
+      "object_pixels": 2047,
+      "depth_range_m": [
+        0.31074233764868975,
+        0.5536482862642831
+      ],
+      "median_valid_cost": 0.047619618475437164,
+      "cross_view_valid_pixels": 1736
+    },
+    {
+      "view_id": "synthetic_009",
+      "photometric_valid_pixels": 1869,
+      "object_pixels": 2025,
+      "depth_range_m": [
+        0.29844360982152796,
+        0.5656872245119791
+      ],
+      "median_valid_cost": 0.07738256454467773,
+      "cross_view_valid_pixels": 1838
+    },
+    {
+      "view_id": "synthetic_010",
+      "photometric_valid_pixels": 1710,
+      "object_pixels": 1863,
+      "depth_range_m": [
+        0.29710230138963545,
+        0.5741083406528646
+      ],
+      "median_valid_cost": 0.09907245635986328,
+      "cross_view_valid_pixels": 1681
+    },
+    {
+      "view_id": "synthetic_013",
+      "photometric_valid_pixels": 1251,
+      "object_pixels": 1451,
+      "depth_range_m": [
+        0.32575695309922903,
+        0.5970557797184078
+      ],
+      "median_valid_cost": 0.07516461610794067,
+      "cross_view_valid_pixels": 1223
+    },
+    {
+      "view_id": "synthetic_014",
+      "photometric_valid_pixels": 1437,
+      "object_pixels": 1572,
+      "depth_range_m": [
+        0.32993593060035065,
+        0.6067721321083932
+      ],
+      "median_valid_cost": 0.09119272232055664,
+      "cross_view_valid_pixels": 1409
+    },
+    {
+      "view_id": "synthetic_015",
+      "photometric_valid_pixels": 1538,
+      "object_pixels": 1679,
+      "depth_range_m": [
+        0.3360196774703016,
+        0.6039144494024878
+      ],
+      "median_valid_cost": 0.08921648561954498,
+      "cross_view_valid_pixels": 1511
+    },
+    {
+      "view_id": "synthetic_016",
+      "photometric_valid_pixels": 1486,
+      "object_pixels": 1744,
+      "depth_range_m": [
+        0.3425737519807922,
+        0.5878154000377307
+      ],
+      "median_valid_cost": 0.08620945364236832,
+      "cross_view_valid_pixels": 1441
+    },
+    {
+      "view_id": "synthetic_019",
+      "photometric_valid_pixels": 1665,
+      "object_pixels": 1946,
+      "depth_range_m": [
+        0.3281333050217232,
+        0.5343739182246187
+      ],
+      "median_valid_cost": 0.05592995509505272,
+      "cross_view_valid_pixels": 1580
+    },
+    {
+      "view_id": "synthetic_020",
+      "photometric_valid_pixels": 1779,
+      "object_pixels": 1989,
+      "depth_range_m": [
+        0.3014260196294852,
+        0.5443319682450785
+      ],
+      "median_valid_cost": 0.054105766117572784,
+      "cross_view_valid_pixels": 1711
+    },
+    {
+      "view_id": "synthetic_021",
+      "photometric_valid_pixels": 1709,
+      "object_pixels": 1896,
+      "depth_range_m": [
+        0.2852019156038901,
+        0.5524455302943412
+      ],
+      "median_valid_cost": 0.07948412746191025,
+      "cross_view_valid_pixels": 1634
+    },
+    {
+      "view_id": "synthetic_023",
+      "photometric_valid_pixels": 1169,
+      "object_pixels": 1394,
+      "depth_range_m": [
+        0.2891751663349004,
+        0.5603460106825002
+      ],
+      "median_valid_cost": 0.07888757437467575,
+      "cross_view_valid_pixels": 1121
+    }
+  ],
+  "fit_views_only": true,
+  "observed_points": 23935,
+  "fusion": {
+    "status": "partial_observed_surface",
+    "known_voxels": 58259,
+    "total_voxels": 109512,
+    "voxel_spacing_m": [
+      0.0030985915492957746,
+      0.003157894736842105,
+      0.003157894736842105
+    ],
+    "vertices": 6594,
+    "faces": 12342,
+    "watertight": false,
+    "holes_filled": false
+  },
+  "metric_scale_source": "synthetic known coordinates",
+  "contact_surface_accuracy_certified": false,
+  "limitations": [
+    "Dense surface is partial where texture/depth observations are insufficient.",
+    "Cross-view agreement is not independent metrology.",
+    "No automatic watertight filling or collision certification."
+  ]
+}

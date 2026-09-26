@@ -1,0 +1,12 @@
+{
+  "synthetic_dense": {
+    "mean_mm": 0.43295341137971893,
+    "p95_mm": 1.0159195198021205,
+    "scope": "reconstructed vertices to analytical synthetic union surface; not coverage or worst-case bound"
+  },
+  "synthetic_rgb_dense": {
+    "mean_mm": 0.7343401956656199,
+    "p95_mm": 2.1052630245685586,
+    "scope": "reconstructed vertices to analytical synthetic union surface; not coverage or worst-case bound"
+  }
+}

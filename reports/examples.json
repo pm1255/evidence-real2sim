@@ -1,0 +1,42 @@
+{
+  "data_origin": "SYNTHETIC_SOFTWARE_EXAMPLES",
+  "cases": [
+    {
+      "case": "A_actions_without_images",
+      "exit_code": 0
+    },
+    {
+      "case": "B_joint_states_only",
+      "exit_code": 0
+    },
+    {
+      "case": "C_object_motion_without_robot",
+      "exit_code": 0
+    },
+    {
+      "case": "D_motion_without_torque",
+      "exit_code": 0
+    },
+    {
+      "case": "E_torque_without_images",
+      "exit_code": 0
+    },
+    {
+      "case": "F_full_robot_feedback",
+      "exit_code": 0
+    },
+    {
+      "case": "G_rgb_gaussian_training",
+      "exit_code": 0
+    },
+    {
+      "case": "H_rgb_dense",
+      "exit_code": 0
+    },
+    {
+      "case": "I_rgbd_dense",
+      "exit_code": 0
+    }
+  ],
+  "real_equivalence_validated": false
+}

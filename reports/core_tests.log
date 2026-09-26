@@ -1,0 +1,32 @@
+test_01_nonmonotonic_times_rejected (__main__.Checks.test_01_nonmonotonic_times_rejected) ... ok
+test_02_nan_not_imputed (__main__.Checks.test_02_nan_not_imputed) ... ok
+test_03_shape_mismatch_rejected (__main__.Checks.test_03_shape_mismatch_rejected) ... ok
+test_04_q_only_degrades (__main__.Checks.test_04_q_only_degrades) ... ok
+test_05_missing_contact_skips (__main__.Checks.test_05_missing_contact_skips) ... ok
+test_06_command_skip_is_not_zero_target (__main__.Checks.test_06_command_skip_is_not_zero_target) ... ok
+test_07_mid_interval_command_not_applied_early (__main__.Checks.test_07_mid_interval_command_not_applied_early) ... ok
+test_08_known_controller_recovered (__main__.Checks.test_08_known_controller_recovered) ... ok
+test_09_known_slide_friction_and_holdout (__main__.Checks.test_09_known_slide_friction_and_holdout) ... ok
+test_10_training_overlap_rejected (__main__.Checks.test_10_training_overlap_rejected) ... ok
+test_11_changed_model_asset_changes_fingerprint (__main__.Checks.test_11_changed_model_asset_changes_fingerprint) ... ok
+test_12_mujoco_prediction_not_forced_to_observed_object (__main__.Checks.test_12_mujoco_prediction_not_forced_to_observed_object) ... ok
+test_13_unsynchronized_pusher_rejected (__main__.Checks.test_13_unsynchronized_pusher_rejected) ... ok
+test_14_slide_requires_no_contact_evidence (__main__.Checks.test_14_slide_requires_no_contact_evidence) ... ok
+test_15_independent_geometry_offset_recovered (__main__.Checks.test_15_independent_geometry_offset_recovered) ... ok
+test_16_joint_base_gauge_degeneracy_detected (__main__.Checks.test_16_joint_base_gauge_degeneracy_detected) ... ok
+test_17_known_free_motion_torque_residual_small (__main__.Checks.test_17_known_free_motion_torque_residual_small) ... ok
+test_18_mesh_topology_not_real_validation (__main__.Checks.test_18_mesh_topology_not_real_validation) ... ok
+test_19_same_task_paired_policy_metrics (__main__.Checks.test_19_same_task_paired_policy_metrics) ... ok
+test_20_mismatched_policy_pair_rejected (__main__.Checks.test_20_mismatched_policy_pair_rejected) ... ok
+test_21_episode_end_not_accepted_as_success (__main__.Checks.test_21_episode_end_not_accepted_as_success) ... ok
+test_22_camera_marker_and_missing_frame (__main__.Checks.test_22_camera_marker_and_missing_frame) ... ok
+test_23_track_transform_rejects_fake_metric_scale (__main__.Checks.test_23_track_transform_rejects_fake_metric_scale) ... ok
+test_24_duplicate_content_across_split_rejected (__main__.Checks.test_24_duplicate_content_across_split_rejected) ... ok
+test_25_chessboard_intrinsics_and_heldout_views (__main__.Checks.test_25_chessboard_intrinsics_and_heldout_views) ... ok
+test_26_world_track_clock_and_marker_offset (__main__.Checks.test_26_world_track_clock_and_marker_offset) ... ok
+test_27_missing_timestamp_audit_does_not_claim_ready (__main__.Checks.test_27_missing_timestamp_audit_does_not_claim_ready) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 2.738s
+
+OK
