@@ -1,0 +1,25 @@
+{
+  "schema": "robot-workspace-capture-v1",
+  "frame_scope": "full_workspace",
+  "capture_mode": "moving_camera_static_workspace",
+  "scene_static_during_capture": null,
+  "camera_convention": "opencv_world_to_camera",
+  "coordinate_units": "unknown",
+  "metric_scale_source": null,
+  "data_origin": "USER_PROVIDED_UNVERIFIED",
+  "template_note": "Replace frame paths and this illustrative inventory. Null values mean unknown; no poses, detections or physics have been estimated.",
+  "frames": [
+    {"id": "view_000", "image": "photos/000.jpg", "split": "fit", "K": null, "world_to_camera": null},
+    {"id": "view_001", "image": "photos/001.jpg", "split": "fit", "K": null, "world_to_camera": null},
+    {"id": "view_002", "image": "photos/002.jpg", "split": "fit", "K": null, "world_to_camera": null},
+    {"id": "view_003", "image": "photos/003.jpg", "split": "test", "K": null, "world_to_camera": null}
+  ],
+  "instances": [
+    {"id": "background", "role": "static_environment", "world_from_instance": null},
+    {"id": "table", "role": "support_surface", "world_from_instance": null},
+    {"id": "bottle", "role": "rigid_object", "support_id": "table", "world_from_instance": null, "appearance_asset_id": null, "collision_asset_id": null},
+    {"id": "tray", "role": "rigid_object", "support_id": "table", "world_from_instance": null},
+    {"id": "drawer", "role": "articulated_object", "world_from_instance": null},
+    {"id": "robot", "role": "robot", "world_from_instance": null}
+  ]
+}
