@@ -23,6 +23,9 @@ Data-aware reconstruction, calibration and robot contact evaluation.
 
 ## 先看生成结果：机器人与物体相互影响
 
+🎥 [观看重建视频（MP4）](https://github.com/pm1255/evidence-real2sim/blob/main/photo_reconstruction_push.mp4)
+
+
 ![启用和禁用接触时，相同指令产生不同机器人与物体运动的实际仿真轨迹动画](docs/assets/contact_feedback.gif)
 
 **输入：机器人模型、执行器、初始状态与控制策略。输出：机器人和自由物体的闭环运动、接触反力与任务结果。**
